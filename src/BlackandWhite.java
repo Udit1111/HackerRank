@@ -9,8 +9,8 @@ public class BlackandWhite {
 	{	
 		Scanner scan = new Scanner(System.in);
 		rotationCounter = Integer.parseInt(scan.nextLine());
-		long[] results = calculateprice(9, 1, 1);
-		System.out.println(results[0]+""+results[1]);}
+		long[] results = calculateprice(1, 2, 1);
+		System.out.println(results[0]+" "+results[1]);}
 	
 	public static long[] calculateprice( long blackPrice, long whitePrice, long interchangePrice)
 	{
